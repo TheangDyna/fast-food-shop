@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductCard = ({ title, price, duration, cover }) => {
   return (
-    <div className="flex w-[350px] bg-gradient-to-r from-yellow-200 rounded-md">
+    <div className="flex w-[350px] bg-gradient-to-r from-red-200 rounded-md">
       <div className="w-48 h-48  flex items-center p-4">
         <img src={cover} className="w-full h-auto object-cover" />
       </div>
