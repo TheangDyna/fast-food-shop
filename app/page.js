@@ -9,7 +9,7 @@ import products from "./constants/productData";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-blue-500">
       <div className="flex justify-center pb-10 text-2xl text-red-500 font-bold">
         -OUR MENU-
       </div>
